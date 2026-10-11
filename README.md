@@ -92,15 +92,28 @@ portfolio/
 
 ---
 
-## 🚀 Running the Project
+## 🚀 Running the Web Server
 
-1. **Direct Browser Access**:
-   Double click or open `index.html` in any modern web browser. All modules and styles load immediately with zero build steps required.
+### 1. Built-in Node.js Web Server (Zero External Dependencies)
+You do not need to install any external npm packages. Simply run:
+```bash
+node server.js
+```
+or
+```bash
+npm start
+```
+Then visit:
+👉 **`http://localhost:3000`**
 
-2. **Using Vite / Node.js** (Optional):
-   ```bash
-   npm install
-   npm run dev
-   ```
-   Open `http://localhost:5173` to explore live reloading.
-"# portfolio_yishua" 
+#### Server Capabilities:
+- **Zero Configuration**: Built using Node's standard modules (`http`, `fs`, `path`).
+- **Static Asset Delivery**: Delivers `index.html`, CSS, JavaScript, PDF, and image files with correct MIME types and caching headers.
+- **Auto Image Sync**: Synchronizes brain and uploaded images into `public/images/` automatically upon launch.
+- **REST API Endpoints**:
+  - `POST /api/contact`: Receives contact form submissions and safely stores them in `data/messages.json`.
+  - `GET /api/health`: Health status endpoint.
+  - `GET /api/messages`: Returns logged editorial inquiries.
+
+### 2. Direct File Access (Offline Mode)
+You can also double-click or open `index.html` directly in any web browser without running a server. All modules and styles load immediately.

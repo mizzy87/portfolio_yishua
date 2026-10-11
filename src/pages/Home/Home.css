@@ -1,0 +1,371 @@
+/* Home Page & Experience & CV Download Styles */
+
+/* ==========================================================================
+   5. EXPERIENCE & ACHIEVEMENTS SECTION
+   ========================================================================== */
+.experience-section {
+  background-color: var(--ivory-100);
+  border-bottom: 1px solid var(--ivory-border);
+}
+
+.experience-grid {
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
+  gap: var(--space-12);
+  align-items: start;
+}
+
+/* Timeline */
+.timeline-block {
+  margin-bottom: var(--space-8);
+}
+
+.timeline-title {
+  font-family: var(--font-serif);
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--navy-900);
+  margin-bottom: var(--space-6);
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+.timeline-title::before {
+  content: "";
+  display: inline-block;
+  width: 4px;
+  height: 20px;
+  background-color: var(--gold-500);
+}
+
+.timeline-list {
+  position: relative;
+  padding-left: var(--space-8);
+  border-left: 2px solid var(--ivory-border);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-8);
+}
+
+.timeline-item {
+  position: relative;
+}
+
+.timeline-dot {
+  position: absolute;
+  top: 4px;
+  left: calc(-1 * var(--space-8) - 6px);
+  width: 14px;
+  height: 14px;
+  border-radius: var(--radius-full);
+  background-color: var(--navy-900);
+  border: 3px solid var(--gold-400);
+}
+
+.timeline-period {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--gold-700);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: var(--space-1);
+}
+
+.timeline-role {
+  font-family: var(--font-serif);
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--navy-900);
+  line-height: 1.2;
+}
+
+.timeline-org {
+  font-family: var(--font-sans);
+  font-size: var(--text-sm);
+  font-weight: 600;
+  color: var(--text-dark-muted);
+  margin-bottom: var(--space-2);
+}
+
+.timeline-desc {
+  font-family: var(--font-sans);
+  font-size: var(--text-sm);
+  color: var(--text-dark-muted);
+  line-height: var(--leading-relaxed);
+}
+
+/* Awards & Honors Column */
+.achievements-column {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-8);
+}
+
+.award-card {
+  background-color: var(--white);
+  border: 1px solid var(--ivory-border);
+  border-radius: var(--radius-sm);
+  padding: var(--space-5);
+  transition: all var(--transition-fast);
+  position: relative;
+  overflow: hidden;
+}
+
+.award-card:hover {
+  border-color: var(--gold-500);
+  transform: translateX(4px);
+  box-shadow: var(--shadow-md);
+}
+
+.award-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 3px;
+  height: 100%;
+  background: var(--gold-gradient);
+}
+
+.award-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: var(--space-1);
+}
+
+.award-year {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--gold-700);
+}
+
+.award-body {
+  font-family: var(--font-sans);
+  font-size: var(--text-xs);
+  color: var(--text-dark-subtle);
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.award-title {
+  font-family: var(--font-serif);
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--navy-900);
+  margin-bottom: var(--space-1);
+}
+
+.award-note {
+  font-family: var(--font-sans);
+  font-size: var(--text-xs);
+  color: var(--text-dark-muted);
+}
+
+/* Certifications Pill Matrix */
+.cert-item {
+  background-color: var(--white);
+  border: 1px solid var(--ivory-border);
+  border-radius: var(--radius-sm);
+  padding: var(--space-4);
+  margin-bottom: var(--space-3);
+}
+
+.cert-title {
+  font-family: var(--font-serif);
+  font-weight: 700;
+  font-size: var(--text-sm);
+  color: var(--navy-900);
+}
+
+.cert-issuer {
+  font-family: var(--font-sans);
+  font-size: var(--text-xs);
+  color: var(--gold-700);
+  font-weight: 600;
+}
+
+.cert-detail {
+  font-family: var(--font-sans);
+  font-size: var(--text-xs);
+  color: var(--text-dark-muted);
+  margin-top: 3px;
+}
+
+/* ==========================================================================
+   6. DOWNLOAD MY CV SECTION
+   ========================================================================== */
+.cv-section {
+  background: radial-gradient(circle at 20% 80%, rgba(20, 32, 61, 0.9) 0%, rgba(11, 19, 37, 1) 100%), var(--navy-900);
+  color: var(--white);
+  border-bottom: 2px solid var(--gold-500);
+  position: relative;
+  overflow: hidden;
+}
+
+.cv-card {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1.5px solid var(--gold-400);
+  border-radius: var(--radius-md);
+  padding: var(--space-10) var(--space-12);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: var(--space-10);
+  align-items: center;
+}
+
+.cv-info-col h3 {
+  font-family: var(--font-serif);
+  font-size: clamp(1.8rem, 3vw, 2.5rem);
+  color: var(--white);
+  line-height: 1.15;
+  margin-bottom: var(--space-3);
+}
+
+.cv-info-col p {
+  font-family: var(--font-sans);
+  font-size: var(--text-base);
+  color: var(--text-light-muted);
+  line-height: var(--leading-relaxed);
+  margin-bottom: var(--space-6);
+}
+
+.cv-highlights-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-3);
+  margin-bottom: var(--space-8);
+}
+
+.cv-highlight-item {
+  font-family: var(--font-sans);
+  font-size: var(--text-xs);
+  color: var(--gold-200);
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.cv-actions {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--space-4);
+}
+
+.cv-download-btn {
+  background: var(--gold-gradient);
+  color: var(--navy-950);
+  font-weight: 700;
+  padding: 0.9rem 2rem;
+  border-radius: var(--radius-sm);
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-3);
+  text-decoration: none;
+  font-size: var(--text-sm);
+  letter-spacing: 0.04em;
+  box-shadow: var(--shadow-gold);
+  transition: all var(--transition-normal);
+}
+
+.cv-download-btn:hover {
+  filter: brightness(1.1);
+  transform: translateY(-2px);
+  box-shadow: 0 12px 28px rgba(197, 160, 89, 0.4);
+}
+
+/* CV Document Visual Preview Mockup */
+.cv-preview-col {
+  display: flex;
+  justify-content: center;
+}
+
+.cv-paper-mockup {
+  position: relative;
+  width: 100%;
+  max-width: 320px;
+  background-color: var(--ivory-50);
+  color: var(--text-dark);
+  border-radius: var(--radius-sm);
+  padding: var(--space-6);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.6);
+  border: 1px solid var(--gold-300);
+  transform: rotate(2deg);
+  transition: transform var(--transition-normal);
+}
+
+.cv-paper-mockup:hover {
+  transform: rotate(0deg) scale(1.02);
+}
+
+.mockup-header {
+  border-bottom: 2px solid var(--navy-900);
+  padding-bottom: var(--space-3);
+  margin-bottom: var(--space-4);
+}
+
+.mockup-name {
+  font-family: var(--font-serif);
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: var(--navy-900);
+  text-transform: uppercase;
+}
+
+.mockup-role {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  color: var(--gold-700);
+  font-weight: 700;
+}
+
+.mockup-lines {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.mockup-line {
+  height: 6px;
+  background-color: var(--ivory-300);
+  border-radius: 2px;
+}
+
+.mockup-line.short { width: 60%; }
+.mockup-line.medium { width: 80%; }
+.mockup-line.accent { background-color: var(--gold-400); width: 40%; height: 8px; margin: 6px 0 2px; }
+
+.mockup-badge {
+  position: absolute;
+  top: -12px;
+  right: -12px;
+  background-color: var(--gold-500);
+  color: var(--navy-950);
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  font-weight: 800;
+  padding: 4px 10px;
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow-md);
+}
+
+@media (max-width: 992px) {
+  .experience-grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-10);
+  }
+
+  .cv-card {
+    grid-template-columns: 1fr;
+    padding: var(--space-6);
+  }
+
+  .cv-preview-col {
+    order: -1;
+  }
+}
