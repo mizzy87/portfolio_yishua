@@ -182,7 +182,16 @@ const server = http.createServer((req, res) => {
 
   // Check if file exists
   fs.stat(filePath, (err, stats) => {
-    if (err || !stats.isFile()) {
+    if (!err && stats.isDirectory()) {
+      const dirIndex = path.join(filePath, "index.html");
+      if (fs.existsSync(dirIndex)) {
+        filePath = dirIndex;
+      } else {
+        err = new Error("No index file in directory");
+      }
+    }
+
+    if (err || !fs.existsSync(filePath) || !fs.statSync(filePath).isFile()) {
       // Fallback: If not found and no extension, serve index.html for SPA behavior
       if (!path.extname(pathname)) {
         const fallbackPath = path.join(ROOT_DIR, "index.html");

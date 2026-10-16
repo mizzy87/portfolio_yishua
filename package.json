@@ -9,8 +9,9 @@
     "server": "node server.js",
     "sync-assets": "node scripts/copy-assets.js",
     "dev": "node server.js",
-    "build": "vite build",
-    "preview": "vite preview"
+    "build": "node scripts/build.js",
+    "deploy": "node scripts/build.js && git add . && git commit -m \"Deploy: Update editorial portfolio, 3 books, and build configs\" && git push origin main",
+    "preview": "node server.js"
   },
   "keywords": [
     "journalism",
@@ -23,7 +24,5 @@
   ],
   "author": "Olukorede Yishua",
   "license": "MIT",
-  "devDependencies": {
-    "vite": "^5.4.0"
-  }
+  "devDependencies": {}
 }

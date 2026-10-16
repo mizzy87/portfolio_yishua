@@ -10,19 +10,24 @@
   const BRAIN_BASE = "../.gemini/antigravity-ide/brain/e5d840a1-713b-4f33-917a-c620a0f010fb";
 
   const ASSETS = {
-    profile: `${BRAIN_BASE}/.user_uploaded/media_1791705352682.jpg`,
-    about: `${BRAIN_BASE}/.user_uploaded/media_1791710376446.jpg`,
-    reporting01: `${BRAIN_BASE}/reporting_investigation_1791703166294.jpg`,
-    reporting02: `${BRAIN_BASE}/reporting_interview_1791703222400.jpg`,
-    reporting03: `${BRAIN_BASE}/reporting_climate_1791703252136.jpg`,
-    reporting04: `${BRAIN_BASE}/reporting_summit_1791703274261.jpg`,
-    galleryPortrait: `${BRAIN_BASE}/gallery_portrait_1791703309947.jpg`,
-    galleryField: `${BRAIN_BASE}/gallery_field_1791703591453.jpg`,
-    galleryNewsroom: `${BRAIN_BASE}/gallery_newsroom_1791703332325.jpg`,
+    profile: "public/images/profile.jpg",
+    about: "public/images/about.jpg",
+    reporting01: "public/images/reporting-01.jpg",
+    reporting02: "public/images/reporting-02.jpg",
+    reporting03: "public/images/reporting-03.jpg",
+    reporting04: "public/images/reporting-04.jpg",
+    galleryPortrait: "public/images/profile.jpg",
+    galleryField: "public/images/about.jpg",
+    galleryNewsroom: "public/images/about.jpg",
     cvPdf: "public/documents/cv.pdf",
-    book1: `${BRAIN_BASE}/.user_uploaded/media_1791707184082.png`,
-    book2: `${BRAIN_BASE}/.user_uploaded/media_1791707197981.png`,
-    book3: `${BRAIN_BASE}/.user_uploaded/media_1791707217466.png`
+    book1: "public/images/books/after-the-end.png",
+    book2: "public/images/books/in-the-name-of-our-father.png",
+    book3: "public/images/books/black-market.png",
+    fallbackProfile: `${BRAIN_BASE}/.user_uploaded/media_1791705352682.jpg`,
+    fallbackAbout: `${BRAIN_BASE}/.user_uploaded/media_1791710376446.jpg`,
+    fallbackBook1: `${BRAIN_BASE}/.user_uploaded/media_1791707184082.png`,
+    fallbackBook2: `${BRAIN_BASE}/.user_uploaded/media_1791707197981.png`,
+    fallbackBook3: `${BRAIN_BASE}/.user_uploaded/media_1791707217466.png`
   };
 
   const ARTICLES = [
