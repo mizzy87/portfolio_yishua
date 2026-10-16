@@ -18,6 +18,7 @@ const __dirname = path.dirname(__filename);
 const ROOT_DIR = path.resolve(__dirname, "..");
 const DIST_DIR = path.join(ROOT_DIR, "dist");
 const ASSETS_DIR = path.join(DIST_DIR, "assets");
+const ROOT_ASSETS_DIR = path.join(ROOT_DIR, "assets");
 const PUBLIC_DIR = path.join(ROOT_DIR, "public");
 const DIST_PUBLIC_DIR = path.join(DIST_DIR, "public");
 
@@ -69,9 +70,15 @@ export function runBuild() {
     }
   }
 
+  if (!fs.existsSync(ROOT_ASSETS_DIR)) {
+    fs.mkdirSync(ROOT_ASSETS_DIR, { recursive: true });
+  }
+
   const distCssPath = path.join(ASSETS_DIR, "styles.bundle.css");
+  const rootCssPath = path.join(ROOT_ASSETS_DIR, "styles.bundle.css");
   fs.writeFileSync(distCssPath, bundledCss, "utf8");
-  console.log(`  ✓ Created dist/assets/styles.bundle.css (${(bundledCss.length / 1024).toFixed(1)} KB)`);
+  fs.writeFileSync(rootCssPath, bundledCss, "utf8");
+  console.log(`  ✓ Created dist/assets/styles.bundle.css & assets/styles.bundle.css (${(bundledCss.length / 1024).toFixed(1)} KB)`);
 
   // 4. Copy public/ directory to dist/public/
   console.log("▸ Copying public files and documents...");
@@ -136,8 +143,10 @@ export function runBuild() {
   );
 
   const distJsPath = path.join(ASSETS_DIR, "app.bundle.js");
+  const rootJsPath = path.join(ROOT_ASSETS_DIR, "app.bundle.js");
   fs.writeFileSync(distJsPath, scriptContent, "utf8");
-  console.log(`  ✓ Created dist/assets/app.bundle.js (${(scriptContent.length / 1024).toFixed(1)} KB)`);
+  fs.writeFileSync(rootJsPath, scriptContent, "utf8");
+  console.log(`  ✓ Created dist/assets/app.bundle.js & assets/app.bundle.js (${(scriptContent.length / 1024).toFixed(1)} KB)`);
 
   // 6. Generate production dist/index.html
   console.log("▸ Generating dist/index.html...");
