@@ -1,6 +1,6 @@
 @echo off
 echo ========================================================
-echo   DEPLOYING OLUKOREDE YISHUA EDITORIAL PORTFOLIO
+echo   DEPLOYING OLUKOREDE YISHAU EDITORIAL PORTFOLIO
 echo ========================================================
 echo.
 echo [1/3] Running production build...

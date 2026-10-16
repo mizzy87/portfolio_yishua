@@ -1,8 +1,8 @@
 {
-  "name": "olukorede-yishua-portfolio",
+  "name": "olukorede-yishau-portfolio",
   "private": true,
   "version": "1.0.0",
-  "description": "Editorial Portfolio for Olukorede Yishua — Journalist, Writer, Storyteller",
+  "description": "Editorial Portfolio for Olukorede Yishau — Journalist, Writer, Storyteller",
   "type": "module",
   "scripts": {
     "start": "node server.js",
@@ -20,9 +20,9 @@
     "editorial",
     "writer",
     "storyteller",
-    "olukorede-yishua"
+    "olukorede-yishau"
   ],
-  "author": "Olukorede Yishua",
+  "author": "Olukorede Yishau",
   "license": "MIT",
   "devDependencies": {}
 }

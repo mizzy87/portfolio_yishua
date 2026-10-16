@@ -14,7 +14,7 @@ export function renderAbout() {
         <!-- SECTION HEADER -->
         <div class="editorial-header">
           <span class="kicker">Chapter I · The Chronicler</span>
-          <h2 class="editorial-title">About Olukorede Yishua</h2>
+          <h2 class="editorial-title">About Olukorede Yishau</h2>
           <p class="editorial-subtitle">
             An unwavering commitment to truth, narrative discipline, and elevating stories that define modern Africa.
           </p>
@@ -28,7 +28,7 @@ export function renderAbout() {
               <div class="about-photo-wrapper">
                 <img 
                   src="${photoImg}" 
-                  alt="Olukorede Yishua at his editorial desk in the newsroom" 
+                  alt="Olukorede Yishau at his editorial desk in the newsroom" 
                   class="about-photo-img"
                   id="about-photo-image"
                   loading="lazy"
@@ -71,7 +71,7 @@ export function renderAbout() {
           <div class="about-bio-column">
             
             <p class="about-lead-paragraph">
-              <span class="about-dropcap">F</span>or over 25 years, Olukorede Sanya Yishua has walked the demanding intersection of frontline investigative journalism, high-level political analysis, and literary storytelling. His writing interrogates systemic power, champions human rights, and breathes visceral life into the lives of ordinary citizens confronting extraordinary struggles.
+              <span class="about-dropcap">F</span>or over 25 years, Olukorede Sanya Yishau has walked the demanding intersection of frontline investigative journalism, high-level political analysis, and literary storytelling. His writing interrogates systemic power, champions human rights, and breathes visceral life into the lives of ordinary citizens confronting extraordinary struggles.
             </p>
 
             <p class="about-body-text">

@@ -1,5 +1,5 @@
 /**
- * OLUKOREDE YISHUA — Photojournalism Gallery Data
+ * OLUKOREDE YISHAU — Photojournalism Gallery Data
  * Categories: REPORTING | INTERVIEWS | EVENTS
  */
 
@@ -14,7 +14,7 @@ export const GALLERY_ITEMS = [
     image: "public/images/reporting-01.jpg",
     fallbackImage: "../.gemini/antigravity-ide/brain/e5d840a1-713b-4f33-917a-c620a0f010fb/reporting_investigation_1791703166294.jpg",
     caption: "Conducting field interviews with village council elders during an in-depth investigation into rural development grant diversion.",
-    credit: "Photojournalism Field Archive / O. Yishua"
+    credit: "Photojournalism Field Archive / O. Yishau"
   },
   {
     id: "gal-02",
@@ -62,7 +62,7 @@ export const GALLERY_ITEMS = [
     image: "public/images/gallery/portrait-01.jpg",
     fallbackImage: "../.gemini/antigravity-ide/brain/e5d840a1-713b-4f33-917a-c620a0f010fb/gallery_portrait_1791703309947.jpg",
     caption: "A powerful documentary study of Mama Theresa, whose community organized civic defense against illegal mineral extraction.",
-    credit: "Documentary Portraiture / O. Yishua"
+    credit: "Documentary Portraiture / O. Yishau"
   },
   {
     id: "gal-06",

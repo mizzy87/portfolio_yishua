@@ -1,7 +1,7 @@
 /**
  * Hero Component
  * 1. HERO SECTION
- * INTRODUCTION: OLUKOREDE_YISHUA | Journalist · Writer · Storyteller
+ * INTRODUCTION: OLUKOREDE_YISHAU | Journalist · Writer · Storyteller
  * Headline, short bio, and View My Work button.
  * OWNER'S PORTRAIT: Large professional photo
  */
@@ -21,7 +21,7 @@ export function renderHero() {
             
             <h1 class="hero-name">
               OLUKOREDE
-              <span class="accent-surname">YISHUA</span>
+              <span class="accent-surname">YISHAU</span>
             </h1>
             
             <div class="hero-roles">
@@ -34,7 +34,7 @@ export function renderHero() {
 
             <p class="hero-bio">
               With over 25 years at the forefront of Nigerian investigative journalism and literary letters, 
-              Olukorede Yishua serves as Associate Editor at <em>The Nation</em>. He is the author of three acclaimed published books: 
+              Olukorede Yishau serves as Associate Editor at <em>The Nation</em>. He is the author of three acclaimed published books: 
               <em>After The End</em>, <em>In The Name of Our Father</em>, and <em>Black Market</em>, 
               bringing sharp investigative rigor and luminous narrative craftsmanship to every dispatch.
             </p>
@@ -91,7 +91,7 @@ export function renderHero() {
               <div class="portrait-inner">
                 <img 
                   src="${primaryImg}" 
-                  alt="Olukorede Yishua — Journalist, Writer, Storyteller" 
+                  alt="Olukorede Yishau — Journalist, Writer, Storyteller" 
                   class="portrait-img"
                   id="hero-portrait-image"
                   onerror="if (this.src !== '${fallbackImg}') this.src = '${fallbackImg}';"

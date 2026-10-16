@@ -9,10 +9,10 @@ export function renderHeader() {
       <div class="container container-wide">
         <div class="header-inner">
           <!-- Logo -->
-          <a href="#home" class="site-logo" aria-label="Olukorede Yishua Home">
+          <a href="#home" class="site-logo" aria-label="Olukorede Yishau Home">
             <div class="logo-monogram">OY</div>
             <div class="logo-text">
-              <span class="logo-name">Olukorede <span>Yishua</span></span>
+              <span class="logo-name">Olukorede <span>Yishau</span></span>
               <span class="logo-tagline">Journalist · Writer · Storyteller</span>
             </div>
           </a>

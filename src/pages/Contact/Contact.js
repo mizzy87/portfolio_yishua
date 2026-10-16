@@ -34,7 +34,7 @@ export function renderContact() {
             <div class="contact-channels">
               
               <!-- Email -->
-              <a href="mailto:yishua.editorial@gmail.com" class="channel-card" id="contact-email-link">
+              <a href="mailto:yishau.editorial@gmail.com" class="channel-card" id="contact-email-link">
                 <div class="channel-icon">
                   <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                     <rect width="20" height="16" x="2" y="4" rx="2"></rect>
@@ -43,7 +43,7 @@ export function renderContact() {
                 </div>
                 <div class="channel-details">
                   <span class="channel-label">Editorial Email</span>
-                  <span class="channel-value">yishua.editorial@gmail.com</span>
+                  <span class="channel-value">yishau.editorial@gmail.com</span>
                 </div>
               </a>
 

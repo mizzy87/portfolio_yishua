@@ -1,4 +1,4 @@
-# OLUKOREDE YISHUA — Official Editorial Portfolio
+# OLUKOREDE YISHAU — Official Editorial Portfolio
 > **Journalist · Writer · Storyteller**
 
 A high-end editorial website crafted with classic broadsheet elegance, warm ivory tones, midnight navy contrasts, and antique gold accents. Designed specifically for editors, literary publishers, media foundations, and readers worldwide.
@@ -9,7 +9,7 @@ A high-end editorial website crafted with classic broadsheet elegance, warm ivor
 
 1. **Header / Navigation**: Monogram Logo (OY), Home, About, Books, Experience, Contact, and Download CV trigger
 2. **Hero Section**: 25 Years of Reporting kicker, editorial title, bio, 3 published books mention, and formal author portrait
-3. **About Olukorede Yishua**: In-depth biography, authentic newsroom desk photo, published books dossier, journalism beats, academic credentials, and skills matrix
+3. **About Olukorede Yishau**: In-depth biography, authentic newsroom desk photo, published books dossier, journalism beats, academic credentials, and skills matrix
 4. **Books & Publications**: Editorial showcase of 3 published books (*After The End*, *In The Name of Our Father*, *Black Market*) with realistic spine-shadow covers and comprehensive details modal
 5. **Experience & Achievements**: Editorial leadership timeline (The Nation Associate Editor), published literary fiction milestones, NMMA awards, BMIA fellowship
 6. **Download My CV**: Professional résumé card with live document preview, executive overview, and direct PDF download
@@ -104,4 +104,4 @@ git add .
 git commit -m "Deploy: Update editorial portfolio, 3 books, and build configs"
 git push origin main
 ```
-Both **Vercel** (`https://portfolioyishua.vercel.app/`) and **Netlify** will automatically rebuild and deploy your site within ~30 seconds of pushing.
+Both **Vercel** (`https://portfolioyishau.vercel.app/`) and **Netlify** will automatically rebuild and deploy your site within ~30 seconds of pushing.

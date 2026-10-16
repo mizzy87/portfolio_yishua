@@ -1,6 +1,6 @@
 /**
  * Footer Component
- * FOOTER: OLUKOREDE_YISHUA
+ * FOOTER: OLUKOREDE_YISHAU
  * Quick Links · Social Media · Copyright
  */
 
@@ -16,10 +16,10 @@ export function renderFooter() {
           
           <!-- BRAND IDENTIFIER -->
           <div class="footer-brand">
-            <a href="#home" class="footer-logo" aria-label="Olukorede Yishua Home">
+            <a href="#home" class="footer-logo" aria-label="Olukorede Yishau Home">
               <div class="footer-monogram">OY</div>
               <div>
-                <span class="footer-brand-name">Olukorede <span>Yishua</span></span>
+                <span class="footer-brand-name">Olukorede <span>Yishau</span></span>
               </div>
             </a>
             <div class="footer-tagline">Journalist · Writer · Storyteller</div>
@@ -66,7 +66,7 @@ export function renderFooter() {
                 </a>
               </li>
               <li>
-                <a href="mailto:yishua.editorial@gmail.com" class="footer-link">
+                <a href="mailto:yishau.editorial@gmail.com" class="footer-link">
                   Direct Email Desk
                 </a>
               </li>
@@ -83,7 +83,7 @@ export function renderFooter() {
         <!-- FOOTER BOTTOM -->
         <div class="footer-bottom">
           <div class="footer-copy">
-            <span>© ${currentYear} Olukorede Yishua. All Rights Reserved.</span>
+            <span>© ${currentYear} Olukorede Yishau. All Rights Reserved.</span>
           </div>
 
           <div class="footer-ethics">

@@ -1,5 +1,5 @@
 /**
- * OLUKOREDE YISHUA — Complete Standalone Application Bundle
+ * OLUKOREDE YISHAU — Complete Standalone Application Bundle
  * Compatible with direct file:/// protocol and HTTP dev servers.
  */
 
@@ -154,7 +154,7 @@
       year: "2024",
       image: ASSETS.reporting01,
       caption: "Conducting field interviews with village council elders during an in-depth investigation into rural development grant diversion.",
-      credit: "Photojournalism Field Archive / O. Yishua"
+      credit: "Photojournalism Field Archive / O. Yishau"
     },
     {
       id: "gal-02",
@@ -198,7 +198,7 @@
       year: "2023",
       image: ASSETS.galleryPortrait,
       caption: "A powerful documentary study of Mama Theresa, whose community organized civic defense against illegal mineral extraction.",
-      credit: "Documentary Portraiture / O. Yishua"
+      credit: "Documentary Portraiture / O. Yishau"
     },
     {
       id: "gal-06",
@@ -239,7 +239,7 @@
     {
       id: "book-1",
       title: "After The End",
-      author: "Olukorede Yishua",
+      author: "Olukorede Yishau",
       publicationYear: "2021",
       genre: "Literary Fiction / Novel",
       coverImage: ASSETS.book1,
@@ -247,7 +247,7 @@
       description: "A humane and deeply sympathetic novel exploring the frailty of human connections, grief, and emotional survival in contemporary society.",
       synopsis: `
         <p class="book-synopsis-lead">"A humane and sympathetic narration of the frailty of human connections." — Jumoke Verissimo</p>
-        <p><em>After The End</em> is a poignant, character-driven narrative that navigates the aftermath of loss, marriage, societal expectations, and personal redemption. With striking emotional resonance, Yishua crafts a tender exploration of human vulnerability and resilience.</p>
+        <p><em>After The End</em> is a poignant, character-driven narrative that navigates the aftermath of loss, marriage, societal expectations, and personal redemption. With striking emotional resonance, Yishau crafts a tender exploration of human vulnerability and resilience.</p>
       `,
       quote: "A humane and sympathetic narration of the frailty of human connections. — Jumoke Verissimo",
       buyLink: "",
@@ -256,7 +256,7 @@
     {
       id: "book-2",
       title: "In The Name of Our Father",
-      author: "Olukorede Yishua",
+      author: "Olukorede Yishau",
       publicationYear: "2018",
       genre: "Political Thriller / Novel",
       coverImage: ASSETS.book2,
@@ -273,7 +273,7 @@
     {
       id: "book-3",
       title: "Black Market",
-      author: "Olukorede Yishua",
+      author: "Olukorede Yishau",
       publicationYear: "2023",
       genre: "Contemporary Fiction / Novel",
       coverImage: ASSETS.book3,
@@ -298,10 +298,10 @@
       <header class="site-header" id="site-header">
         <div class="container container-wide">
           <div class="header-inner">
-            <a href="#home" class="site-logo" aria-label="Olukorede Yishua Home">
+            <a href="#home" class="site-logo" aria-label="Olukorede Yishau Home">
               <div class="logo-monogram">OY</div>
               <div class="logo-text">
-                <span class="logo-name">Olukorede <span>Yishua</span></span>
+                <span class="logo-name">Olukorede <span>Yishau</span></span>
                 <span class="logo-tagline">Journalist · Writer · Storyteller</span>
               </div>
             </a>
@@ -346,7 +346,7 @@
                 <span class="hero-kicker">Distinguished Editorial Voice</span>
                 <h1 class="hero-name">
                   OLUKOREDE
-                  <span class="accent-surname">YISHUA</span>
+                  <span class="accent-surname">YISHAU</span>
                 </h1>
                 <div class="hero-roles">
                   Journalist · Writer · Storyteller
@@ -356,7 +356,7 @@
                 </p>
                 <p class="hero-bio">
                   With over 25 years at the forefront of Nigerian investigative journalism and literary letters, 
-                  Olukorede Yishua serves as Associate Editor at <em>The Nation</em>. He is the author of three acclaimed published books: 
+                  Olukorede Yishau serves as Associate Editor at <em>The Nation</em>. He is the author of three acclaimed published books: 
                   <em>After The End</em>, <em>In The Name of Our Father</em>, and <em>Black Market</em>, 
                   bringing sharp investigative rigor and luminous narrative craftsmanship to every dispatch.
                 </p>
@@ -410,7 +410,7 @@
                   <div class="portrait-inner">
                     <img 
                       src="${ASSETS.profile}" 
-                      alt="Olukorede Yishua — Journalist, Writer, Storyteller" 
+                      alt="Olukorede Yishau — Journalist, Writer, Storyteller" 
                       class="portrait-img" 
                       id="hero-portrait-image"
                       loading="eager"
@@ -433,7 +433,7 @@
           <div class="container">
             <div class="editorial-header">
               <span class="kicker">Chapter I · The Chronicler</span>
-              <h2 class="editorial-title">About Olukorede Yishua</h2>
+              <h2 class="editorial-title">About Olukorede Yishau</h2>
               <p class="editorial-subtitle">
                 An unwavering commitment to truth, narrative discipline, and elevating stories that define modern Africa.
               </p>
@@ -447,7 +447,7 @@
                   <div class="about-photo-wrapper">
                     <img 
                       src="${ASSETS.about}" 
-                      alt="Olukorede Yishua at his editorial desk in the newsroom" 
+                      alt="Olukorede Yishau at his editorial desk in the newsroom" 
                       class="about-photo-img" 
                       loading="lazy"
                     />
@@ -484,7 +484,7 @@
               <!-- BIOGRAPHY & DOSSIER -->
               <div class="about-bio-column">
                 <p class="about-lead-paragraph">
-                  <span class="about-dropcap">F</span>or over 25 years, Olukorede Sanya Yishua has walked the demanding intersection of frontline investigative journalism, high-level political analysis, and literary storytelling. His writing interrogates systemic power, champions human rights, and breathes visceral life into the lives of ordinary citizens confronting extraordinary struggles.
+                  <span class="about-dropcap">F</span>or over 25 years, Olukorede Sanya Yishau has walked the demanding intersection of frontline investigative journalism, high-level political analysis, and literary storytelling. His writing interrogates systemic power, champions human rights, and breathes visceral life into the lives of ordinary citizens confronting extraordinary struggles.
                 </p>
 
                 <p class="about-body-text">
@@ -758,7 +758,7 @@
                 <span class="kicker" style="color: var(--gold-300);">Professional Dossier</span>
                 <h3>Download Official Résumé & Curriculum Vitae</h3>
                 <p>
-                  Access a comprehensive summary of Olukorede Yishua's editorial appointments, investigative portfolio, academic degrees, international media fellowships, published books, and parliamentary testimonies.
+                  Access a comprehensive summary of Olukorede Yishau's editorial appointments, investigative portfolio, academic degrees, international media fellowships, published books, and parliamentary testimonies.
                 </p>
 
                 <div class="cv-highlights-list">
@@ -781,7 +781,7 @@
                 </div>
 
                 <div class="cv-actions">
-                  <a href="${ASSETS.cvPdf}" download="Olukorede_Yishua_CV.pdf" class="cv-download-btn" id="btn-download-cv-file">
+                  <a href="${ASSETS.cvPdf}" download="Olukorede_Yishau_CV.pdf" class="cv-download-btn" id="btn-download-cv-file">
                     <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
                     <span>Download CV (PDF)</span>
                   </a>
@@ -798,7 +798,7 @@
                 <div class="cv-paper-mockup">
                   <div class="mockup-badge">PDF 1.4</div>
                   <div class="mockup-header">
-                    <div class="mockup-name">OLUKOREDE YISHUA</div>
+                    <div class="mockup-name">OLUKOREDE YISHAU</div>
                     <div class="mockup-role">ASSOCIATE EDITOR · AUTHOR · FELLOW</div>
                   </div>
                   <div class="mockup-lines">
@@ -845,13 +845,13 @@
                 </p>
 
                 <div class="contact-channels">
-                  <a href="mailto:yishua.editorial@gmail.com" class="channel-card" id="contact-email-link">
+                  <a href="mailto:yishau.editorial@gmail.com" class="channel-card" id="contact-email-link">
                     <div class="channel-icon">
                       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="20" height="16" x="2" y="4" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg>
                     </div>
                     <div class="channel-details">
                       <span class="channel-label">Editorial Email</span>
-                      <span class="channel-value">yishua.editorial@gmail.com</span>
+                      <span class="channel-value">yishau.editorial@gmail.com</span>
                     </div>
                   </a>
 
@@ -964,7 +964,7 @@
               <a href="#home" class="footer-logo">
                 <div class="footer-monogram">OY</div>
                 <div>
-                  <span class="footer-brand-name">Olukorede <span>Yishua</span></span>
+                  <span class="footer-brand-name">Olukorede <span>Yishau</span></span>
                 </div>
               </a>
               <div class="footer-tagline">Journalist · Writer · Storyteller</div>
@@ -992,7 +992,7 @@
                 <li><a href="https://twitter.com" target="_blank" rel="noopener noreferrer" class="footer-link">X (formerly Twitter)</a></li>
                 <li><a href="https://substack.com" target="_blank" rel="noopener noreferrer" class="footer-link">Substack Newsletter</a></li>
                 <li><a href="https://goodreads.com" target="_blank" rel="noopener noreferrer" class="footer-link">Goodreads Author Page</a></li>
-                <li><a href="mailto:yishua.editorial@gmail.com" class="footer-link">Direct Email Desk</a></li>
+                <li><a href="mailto:yishau.editorial@gmail.com" class="footer-link">Direct Email Desk</a></li>
                 <li><a href="https://wa.me/2348030000000" target="_blank" rel="noopener noreferrer" class="footer-link">WhatsApp Direct</a></li>
               </ul>
             </div>
@@ -1000,7 +1000,7 @@
 
           <div class="footer-bottom">
             <div class="footer-copy">
-              <span>© ${new Date().getFullYear()} Olukorede Yishua. All Rights Reserved.</span>
+              <span>© ${new Date().getFullYear()} Olukorede Yishau. All Rights Reserved.</span>
             </div>
             <div class="footer-ethics">
               <span>Adhering to the highest tenets of the Nigerian Guild of Editors & International Center for Journalists.</span>
@@ -1032,10 +1032,10 @@
           <div style="padding: var(--space-10); background-color: var(--ivory-50);">
             <div style="display: flex; justify-content: space-between; align-items: flex-start; border-bottom: 2px solid var(--navy-900); padding-bottom: var(--space-4); margin-bottom: var(--space-6);">
               <div>
-                <h2 style="font-family: var(--font-serif); font-size: 1.8rem; color: var(--navy-900); margin-bottom: 4px;">OLUKOREDE YISHUA</h2>
+                <h2 style="font-family: var(--font-serif); font-size: 1.8rem; color: var(--navy-900); margin-bottom: 4px;">OLUKOREDE YISHAU</h2>
                 <div style="font-family: var(--font-mono); font-size: 0.8rem; color: var(--gold-700); font-weight: 700;">Journalist · Author · Associate Editor · Storyteller</div>
               </div>
-              <a href="${ASSETS.cvPdf}" download="Olukorede_Yishua_CV.pdf" class="btn btn-gold btn-sm">
+              <a href="${ASSETS.cvPdf}" download="Olukorede_Yishau_CV.pdf" class="btn btn-gold btn-sm">
                 Save PDF
               </a>
             </div>

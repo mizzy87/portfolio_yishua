@@ -1,5 +1,5 @@
 /**
- * OLUKOREDE YISHUA — Selected Journalism Work Data
+ * OLUKOREDE YISHAU — Selected Journalism Work Data
  * Categories: News Reports | Investigative Stories | Features | Opinion & Analysis
  */
 

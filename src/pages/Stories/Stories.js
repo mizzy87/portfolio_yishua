@@ -99,7 +99,7 @@ export function initStories() {
         
         <div class="reader-meta-bar">
           <span class="reader-meta-item">Published: <strong>${article.date}</strong></span>
-          <span class="reader-meta-item">Byline: <strong>Olukorede Yishua</strong></span>
+          <span class="reader-meta-item">Byline: <strong>Olukorede Yishau</strong></span>
           <span class="reader-meta-item">Reading Time: <strong>${article.readTime}</strong></span>
         </div>
 

@@ -1,5 +1,5 @@
 /**
- * OLUKOREDE YISHUA — Experience & Achievements Data
+ * OLUKOREDE YISHAU — Experience & Achievements Data
  * Work history, education, certifications, awards, and professional milestones
  */
 

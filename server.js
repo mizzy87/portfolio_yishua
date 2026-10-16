@@ -1,5 +1,5 @@
 /**
- * OLUKOREDE YISHUA — EDITORIAL PORTFOLIO SERVER
+ * OLUKOREDE YISHAU — EDITORIAL PORTFOLIO SERVER
  * Built with standard Node.js (zero external dependencies required).
  *
  * Usage:
@@ -81,7 +81,7 @@ const server = http.createServer((req, res) => {
     res.end(
       JSON.stringify({
         status: "healthy",
-        server: "Olukorede Yishua Editorial Portfolio Server",
+        server: "Olukorede Yishau Editorial Portfolio Server",
         timestamp: new Date().toISOString()
       })
     );
@@ -232,7 +232,7 @@ server.listen(PORT, HOST, () => {
   console.log(`
   ╔═══════════════════════════════════════════════════════════════╗
   ║                                                               ║
-  ║      OLUKOREDE YISHUA — EDITORIAL PORTFOLIO SERVER            ║
+  ║      OLUKOREDE YISHAU — EDITORIAL PORTFOLIO SERVER            ║
   ║      Journalist · Writer · Storyteller                        ║
   ║                                                               ║
   ╚═══════════════════════════════════════════════════════════════╝

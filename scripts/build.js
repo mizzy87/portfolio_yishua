@@ -1,5 +1,5 @@
 /**
- * OLUKOREDE YISHUA — Production Build System
+ * OLUKOREDE YISHAU — Production Build System
  * Pure Node.js (zero external dependencies required).
  *
  * Usage:
@@ -25,7 +25,7 @@ const DIST_PUBLIC_DIR = path.join(DIST_DIR, "public");
 
 export function runBuild() {
   console.log("=================================================");
-  console.log("  BUILDING OLUKOREDE YISHUA EDITORIAL PORTFOLIO  ");
+  console.log("  BUILDING OLUKOREDE YISHAU EDITORIAL PORTFOLIO  ");
   console.log("=================================================");
 
   // 1. Ensure source assets are synchronized
@@ -60,7 +60,7 @@ export function runBuild() {
     "src/components/Footer/Footer.css"
   ];
 
-  let bundledCss = "/* Olukorede Yishua Editorial Portfolio — Stylesheet Bundle */\n\n";
+  let bundledCss = "/* Olukorede Yishau Editorial Portfolio — Stylesheet Bundle */\n\n";
   for (const relPath of cssOrder) {
     const absPath = path.join(ROOT_DIR, relPath);
     if (fs.existsSync(absPath)) {
@@ -163,17 +163,17 @@ export function runBuild() {
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Olukorede Yishua — Journalist · Writer · Storyteller</title>
+  <title>Olukorede Yishau — Journalist · Writer · Storyteller</title>
   
   <!-- SEO & Social Meta Tags -->
-  <meta name="description" content="Official editorial portfolio of Olukorede Yishua — Associate Editor at The Nation, author of 'In The Name of Our Father', investigative journalist, columnist, and literary storyteller." />
-  <meta name="keywords" content="Olukorede Yishua, Journalist, Investigative Reporter, Author, Nigerian Journalism, The Nation, In The Name of Our Father, Black Market, After The End" />
-  <meta name="author" content="Olukorede Yishua" />
+  <meta name="description" content="Official editorial portfolio of Olukorede Yishau — Associate Editor at The Nation, author of 'In The Name of Our Father', investigative journalist, columnist, and literary storyteller." />
+  <meta name="keywords" content="Olukorede Yishau, Journalist, Investigative Reporter, Author, Nigerian Journalism, The Nation, In The Name of Our Father, Black Market, After The End" />
+  <meta name="author" content="Olukorede Yishau" />
   
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="Olukorede Yishua — Journalist · Writer · Storyteller" />
-  <meta property="og:description" content="Official editorial portfolio of Olukorede Yishua — Associate Editor at The Nation, author of 'In The Name of Our Father', investigative journalist, columnist, and author." />
+  <meta property="og:title" content="Olukorede Yishau — Journalist · Writer · Storyteller" />
+  <meta property="og:description" content="Official editorial portfolio of Olukorede Yishau — Associate Editor at The Nation, author of 'In The Name of Our Father', investigative journalist, columnist, and author." />
   <meta property="og:image" content="public/images/profile.jpg" />
 
   <!-- Favicon -->

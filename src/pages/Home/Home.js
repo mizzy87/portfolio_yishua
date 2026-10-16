@@ -125,7 +125,7 @@ export function renderExperienceAndCV() {
             <span class="kicker" style="color: var(--gold-300);">Professional Dossier</span>
             <h3>Download Official Résumé & Curriculum Vitae</h3>
             <p>
-              Access a comprehensive summary of Olukorede Yishua's editorial appointments, investigative portfolio, academic degrees, international media fellowships, published books, and parliamentary testimonies.
+              Access a comprehensive summary of Olukorede Yishau's editorial appointments, investigative portfolio, academic degrees, international media fellowships, published books, and parliamentary testimonies.
             </p>
 
             <div class="cv-highlights-list">
@@ -151,7 +151,7 @@ export function renderExperienceAndCV() {
               <!-- Direct PDF Download Link -->
               <a 
                 href="public/documents/cv.pdf" 
-                download="Olukorede_Yishua_CV.pdf" 
+                download="Olukorede_Yishau_CV.pdf" 
                 class="cv-download-btn"
                 id="btn-download-cv-file"
               >
@@ -179,7 +179,7 @@ export function renderExperienceAndCV() {
             <div class="cv-paper-mockup">
               <div class="mockup-badge">PDF 1.4</div>
               <div class="mockup-header">
-                <div class="mockup-name">OLUKOREDE YISHUA</div>
+                <div class="mockup-name">OLUKOREDE YISHAU</div>
                 <div class="mockup-role">ASSOCIATE EDITOR · AUTHOR · FELLOW</div>
               </div>
               <div class="mockup-lines">
@@ -212,10 +212,10 @@ export function renderExperienceAndCV() {
         <div style="padding: var(--space-10); background-color: var(--ivory-50);">
           <div style="display: flex; justify-content: space-between; align-items: flex-start; border-bottom: 2px solid var(--navy-900); padding-bottom: var(--space-4); margin-bottom: var(--space-6);">
             <div>
-              <h2 style="font-family: var(--font-serif); font-size: 1.8rem; color: var(--navy-900); margin-bottom: 4px;">OLUKOREDE YISHUA</h2>
+              <h2 style="font-family: var(--font-serif); font-size: 1.8rem; color: var(--navy-900); margin-bottom: 4px;">OLUKOREDE YISHAU</h2>
               <div style="font-family: var(--font-mono); font-size: 0.8rem; color: var(--gold-700); font-weight: 700;">Journalist · Author · Associate Editor · Storyteller</div>
             </div>
-            <a href="public/documents/cv.pdf" download="Olukorede_Yishua_CV.pdf" class="btn btn-gold btn-sm">
+            <a href="public/documents/cv.pdf" download="Olukorede_Yishau_CV.pdf" class="btn btn-gold btn-sm">
               Save PDF
             </a>
           </div>

@@ -1,6 +1,6 @@
-# Deploy script for Olukorede Yishua Editorial Portfolio
+# Deploy script for Olukorede Yishau Editorial Portfolio
 Write-Host "========================================================" -ForegroundColor Cyan
-Write-Host "  DEPLOYING OLUKOREDE YISHUA EDITORIAL PORTFOLIO        " -ForegroundColor Cyan
+Write-Host "  DEPLOYING OLUKOREDE YISHAU EDITORIAL PORTFOLIO        " -ForegroundColor Cyan
 Write-Host "========================================================" -ForegroundColor Cyan
 Write-Host ""
 

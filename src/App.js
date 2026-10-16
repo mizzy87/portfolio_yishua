@@ -1,5 +1,5 @@
 /**
- * OLUKOREDE YISHUA — Portfolio Application Root
+ * OLUKOREDE YISHAU — Portfolio Application Root
  * Exact section order:
  * HEADER / NAVIGATION
  * 1. HERO SECTION
@@ -66,7 +66,7 @@ export function initApp() {
     });
   });
 
-  console.log("Olukorede Yishua Editorial Portfolio initialized successfully.");
+  console.log("Olukorede Yishau Editorial Portfolio initialized successfully.");
 }
 
 // Auto mount on DOM load

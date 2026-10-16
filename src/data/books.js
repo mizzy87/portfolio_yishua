@@ -1,5 +1,5 @@
 /**
- * OLUKOREDE YISHUA — Books & Publications Data
+ * OLUKOREDE YISHAU — Books & Publications Data
  * Easily update book titles, descriptions, covers, publication years, and optional links here.
  */
 
@@ -9,14 +9,14 @@ export const BOOKS = [
   {
     id: "book-1",
     title: "After The End",
-    author: "Olukorede Yishua",
+    author: "Olukorede Yishau",
     publicationYear: "2021",
     coverImage: `${BRAIN_BASE}/.user_uploaded/media_1791707184082.png`,
     fallbackCover: `${BRAIN_BASE}/.user_uploaded/media_1791707184082.png`,
     description: "A humane and deeply sympathetic novel exploring the frailty of human connections, grief, and emotional survival in contemporary society.",
     synopsis: `
       <p class="book-synopsis-lead">"A humane and sympathetic narration of the frailty of human connections." — Jumoke Verissimo</p>
-      <p><em>After The End</em> is a poignant, character-driven narrative that navigates the aftermath of loss, marriage, societal expectations, and personal redemption. With striking emotional resonance, Yishua crafts a tender exploration of human vulnerability and resilience.</p>
+      <p><em>After The End</em> is a poignant, character-driven narrative that navigates the aftermath of loss, marriage, societal expectations, and personal redemption. With striking emotional resonance, Yishau crafts a tender exploration of human vulnerability and resilience.</p>
     `,
     quote: "A humane and sympathetic narration of the frailty of human connections. — Jumoke Verissimo",
     genre: "Literary Fiction / Novel",
@@ -27,7 +27,7 @@ export const BOOKS = [
   {
     id: "book-2",
     title: "In The Name of Our Father",
-    author: "Olukorede Yishua",
+    author: "Olukorede Yishau",
     publicationYear: "2018",
     coverImage: `${BRAIN_BASE}/.user_uploaded/media_1791707197981.png`,
     fallbackCover: `${BRAIN_BASE}/.user_uploaded/media_1791707197981.png`,
@@ -45,7 +45,7 @@ export const BOOKS = [
   {
     id: "book-3",
     title: "Black Market",
-    author: "Olukorede Yishua",
+    author: "Olukorede Yishau",
     publicationYear: "2023",
     coverImage: `${BRAIN_BASE}/.user_uploaded/media_1791707217466.png`,
     fallbackCover: `${BRAIN_BASE}/.user_uploaded/media_1791707217466.png`,
