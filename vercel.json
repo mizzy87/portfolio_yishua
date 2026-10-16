@@ -1,5 +1,7 @@
 {
   "version": 2,
-  "buildCommand": "node scripts/build.js",
-  "cleanUrls": true
+  "cleanUrls": true,
+  "rewrites": [
+    { "source": "/assets/(.*)", "destination": "/public/assets/$1" }
+  ]
 }
